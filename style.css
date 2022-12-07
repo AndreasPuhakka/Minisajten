@@ -92,14 +92,14 @@ li a:hover {
     text-decoration: none;
 }
 
-.skins {
+.overviewL {
     width: 100%;
     display: flex;
     margin: 0px;
     justify-content: center;
 }
 
-.dust2 {
+.map {
     width: 65%;
 
 }
@@ -110,7 +110,13 @@ li a:hover {
     
 }
 
-.andra-sid {
+.tredje-innre {
+    padding-top: 125px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.andra-sid, .tredje-sid {
     margin-top: -4px;
     height: 100%;
     margin-bottom: 125px;
@@ -121,9 +127,33 @@ li a:hover {
     margin-right: 95px;
 }
 
-.bild-text {
+.bild-textR {
     align-self: center;
+    margin-right: 55px;
 }
+
+.overviewR {
+    width: 100%;
+    display: flex;
+    margin: 0px;
+    justify-content: center;
+}
+
+.bild-textL {
+    align-self: center;
+    margin-left: 55px;
+}
+
+.fjärde-sid {
+    margin-top: -4px;
+    height: 100%;
+    margin-bottom: 125px;
+}
+
+.fjärde-innre {
+    padding-top: 125px;
+}
+
 
 /* ------------------MEDIA-------------------- */
 
@@ -167,17 +197,18 @@ li a:hover {
     padding-top: 0px;
 }
 
-.dust2 {
+.map {
     width: 50%;
 }
 .andra-sid {
     margin-top: -400px;
 }
 
-.bild-text {
+.bild-textR {
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-right:0px;
 }
 
 .bild-text-p {
@@ -188,6 +219,18 @@ text-align: center;
 
 .bild-text-h1 {
     text-align:center;
+}
+
+.bild-textL {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left:0px;
+}
+
+.tredje-innre {
+    display: block;
+    padding-top: 0px;
 }
 
 
@@ -210,7 +253,7 @@ text-align: center;
 .andra-sid {
     margin-top: -200px;
 }
-.dust2 {
+.map {
     width: 80%;
 }
 }
