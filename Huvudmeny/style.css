@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;600;700;800&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0px;
     font-family: 'Exo 2', sans-serif;
@@ -25,6 +29,9 @@ nav {
     align-items: center;
     top: 2%;
     z-index: 100;
+    border: 1px solid rgb(22, 22, 22);
+    border-radius: 5px;
+    box-shadow:4px 5px rgba(17, 17, 17, 0.308);
   }
   
 li {
@@ -191,10 +198,6 @@ li a:hover {
 
 }
 
-.bild-div {
-    
-}
-
 .box-text-div {
     height: 48%;
 }
@@ -210,6 +213,79 @@ header {
     font-size: 30px;
 }
 
+.femte-sid {
+    height: 300px;
+    background-color: rgb(19, 19, 19);
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.femte-innre {
+    display: flex;
+}
+
+.end-list {
+    list-style: none;
+}
+
+.xl {
+    font-size: 100px;
+}
+/* Gjorde en egen atribut för 
+att förstora iconerna då de inte 
+gjorde det tillräckligt */
+
+
+.list {
+    display: block;
+    height: 100%;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.info-list {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.list2 {
+    color: white;
+}
+
+ul {
+    padding: 0px;
+}
+
+.warnings {
+    margin-top:10px;
+    display: flex;
+    
+}
+
+.warnings-div {
+    display: flex;
+    justify-content: center;
+    margin-top:10px;
+}
+
+
+.list3 {
+    margin-right: 8px;
+}
+
+.list4 {
+    margin-right: -7px;
+}
+
+.login {
+    color: black;
+    /* Gör något här */
+}
+
+
 
 
 /* -----------Animationer och annat----------- */
@@ -224,8 +300,9 @@ transform: translateY(-10px);
     background-color: #a0a0a0;
 }
 
-
-
+.list2:hover {
+    color: rgb(90, 90, 90);
+}
 
 
 
