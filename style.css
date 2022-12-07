@@ -90,7 +90,15 @@ li a:hover {
     background-color: white;
     padding: 14px 16px;
     text-decoration: none;
+    transition: 0.4s;
 }
+
+
+
+.bs {
+    box-shadow: 6px 8px #0000007e;
+}
+
 
 .overviewL {
     width: 100%;
@@ -147,12 +155,80 @@ li a:hover {
 .fjärde-sid {
     margin-top: -4px;
     height: 100%;
-    margin-bottom: 125px;
+    margin-bottom: 175px;
+    padding-top:100px;
 }
 
 .fjärde-innre {
-    padding-top: 125px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
 }
+
+.box {
+    display: block;
+    width: 350px;
+    height: 400px;
+    justify-content: center;
+    background-color: #82b4bdb4;
+    margin: 0px 55px;
+    border: 1px solid #111;
+    border-radius: 5px;
+    filter: brightness(0.7);
+    transition: 0.5s;
+}
+
+.box-bild {
+    max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+
+.box-text {
+    margin: 10px 20px;
+    text-transform: uppercase;
+    color: black;
+
+}
+
+.bild-div {
+    
+}
+
+.box-text-div {
+    height: 48%;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+
+
+/* -----------Animationer och annat----------- */
+
+.box:hover {
+filter: brightness(1);
+transform: translateY(-10px);
+    
+}
+
+.knapp1:hover, .knapp2:hover {
+    background-color: #a0a0a0;
+}
+
+
+
+
+
+
 
 
 /* ------------------MEDIA-------------------- */
@@ -166,6 +242,16 @@ li a:hover {
     left:5%;
     width: 60%;
 }
+
+
+}
+
+@media only screen and (max-width: 1300px) {
+    .box {
+        height: 343px;
+        width: 300px;
+        margin:0px 30px;
+    }
 }
 
 @media only screen and (max-width: 1150px) {
@@ -233,6 +319,10 @@ text-align: center;
     padding-top: 0px;
 }
 
+.box {
+    margin:0px 15px;
+}
+
 
 }
 
@@ -240,6 +330,18 @@ text-align: center;
 .andra-sid {
     margin-top: -300px;
 }
+}
+
+@media only screen and (max-width: 1000px) {
+    .fjärde-innre {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .box {
+        margin-top: 50px;
+    }
 }
 
 @media only screen and (max-width: 935px) {
