@@ -9,6 +9,10 @@ body {
   font-family: "Exo 2", sans-serif;
 }
 
+img {
+  width: 100%;
+}
+
 .main {
   overflow: hidden;
 }
@@ -51,7 +55,8 @@ li a {
 
 .csgo-logo {
   height: 43px;
-  margin-left: 4px;
+  width: 43px;
+  margin-left: 5px;
 }
 
 .csgo-intro {
@@ -207,7 +212,7 @@ header {
   font-size: 30px;
 }
 
-.femte-sid {
+.sjätte-sid {
   height: 300px;
   background-color: rgb(19, 19, 19);
   display: flex;
@@ -216,7 +221,7 @@ header {
   padding-bottom: 10px;
 }
 
-.femte-innre {
+.sjätte-innre {
   display: flex;
 }
 
@@ -227,7 +232,12 @@ header {
 .xl {
   font-size: 100px;
 }
-/* Gjorde en egen atribut för 
+
+.L {
+  font-size: 60px;
+}
+
+/* Gjorde några egna atributer för 
 att förstora iconerna då de inte 
 gjorde det tillräckligt */
 
@@ -279,6 +289,27 @@ ul {
 .login {
   color: black;
   /* Gör något här */
+}
+
+.femte-sid {
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.femte-innre {
+  width: 65%;
+}
+
+.bytbild-div {
+  display: flex;
+  align-items: center;
+}
+
+.klick-vänster,
+.klick-höger {
+  margin: 0px 30px;
 }
 
 /* -----------Animationer och annat----------- */
@@ -423,8 +454,8 @@ li a:hover {
 }
 
 @media only screen and (max-width: 402px) {
-  .list {
-    display: flex;
+  .sjätte-sid {
+    height: 500px;
   }
 }
 

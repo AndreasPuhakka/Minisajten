@@ -1,3 +1,28 @@
 body {
-    background-color: rgb(49, 49, 49);
+  background-color: rgb(49, 49, 49);
+}
+
+li {
+  list-style: none;
+  margin: 20px 0px;
+}
+
+input {
+  font-size: 15px;
+  color: black;
+  background-color: red;
+  transition: 1s;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+}
+
+input:focus {
+  background-color: green;
+}
+
+input:hover {
+  background-color: yellow;
 }
