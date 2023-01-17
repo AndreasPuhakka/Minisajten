@@ -9,10 +9,6 @@ body {
   font-family: "Exo 2", sans-serif;
 }
 
-img {
-  width: 100%;
-}
-
 .main {
   overflow: hidden;
 }
@@ -49,7 +45,8 @@ li {
 
 li a {
   color: white;
-  padding: 14px 16px;
+  margin: 8px 6px;
+  padding: 6px 10px;
   text-decoration: none;
 }
 
@@ -161,10 +158,9 @@ li a {
 }
 
 .fjärde-sid {
-  margin-top: -4px;
   height: 100%;
-  margin-bottom: 175px;
   padding-top: 100px;
+  margin: -4px 0px 300px 0px;
 }
 
 .fjärde-innre {
@@ -289,27 +285,6 @@ ul {
 .login {
   color: black;
   /* Gör något här */
-}
-
-.femte-sid {
-  height: 1000px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.femte-innre {
-  width: 65%;
-}
-
-.bytbild-div {
-  display: flex;
-  align-items: center;
-}
-
-.klick-vänster,
-.klick-höger {
-  margin: 0px 30px;
 }
 
 /* -----------Animationer och annat----------- */

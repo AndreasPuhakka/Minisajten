@@ -6,26 +6,105 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSGO - Login</title>
     <link rel="stylesheet" href="style2.css" />
+    <script
+      src="https://kit.fontawesome.com/7a5b800579.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div class="input">
       <ul>
-        <li>
-          <input type="email" name="" id="" placeholder="Email" class="email" />
+        <li>Email or Phone</li>
+        <li class="form">
+          <input
+            type="text"
+            name="Email or Phone"
+            id="email or phone"
+            placeholder="Email or Phone"
+          />
         </li>
-        <li>
-          <input type="text" class="namn" placeholder="Namn" />
+        <li><p>Password</p></li>
+        <li class="form">
+          <input
+            type="password"
+            class="password"
+            placeholder="Password"
+            maxlength="128"
+            spellcheck="false"
+            minlength="8"
+            required="required"
+          />
         </li>
-        <li>
-          <input type="password" class="lösenord" placeholder="Lösenord" />
-        </li>
-        <li>
-          <input type="tel" placeholder="Telefonnummer" class="tel" />
-        </li>
-        <li>
-          <input type="submit" value="Slutför" class="submit" />
+        <li class="form">
+          <a href="../sida.html" class="sida">
+            <input type="submit" value="Confirm" class="Confirm" />
+          </a>
         </li>
       </ul>
+    </div>
+    <div class="sjätte-sid" id="6-sid">
+      <div class="sjätte-innre">
+        <ul class="list">
+          <li class="end-list">
+            <a
+              target="_blank"
+              href="https://github.com/AndreasPuhakka/Minisajten"
+            >
+              <i class="fa-brands fa-github xl"></i>
+            </a>
+          </li>
+          <li class="end-list">
+            <a
+              target="_blank"
+              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            >
+              <i class="fa-brands fa-youtube xl"></i>
+            </a>
+          </li>
+          <li class="end-list">
+            <a
+              target="_blank"
+              href="https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/"
+            >
+              <i class="fa-brands fa-square-steam xl"></i>
+            </a>
+          </li>
+          <ul class="info-list">
+            <a href="" class="list2">
+              <li>About</li>
+            </a>
+            <li class="list2">|</li>
+            <a href="" class="list2">
+              <li>Support</li>
+            </a>
+            <li class="list2">|</li>
+            <a href="" class="list2">
+              <li>Contact Us</li>
+            </a>
+          </ul>
+          <div class="warnings-div">
+            <ul class="warnings">
+              <li class="list4">
+                <a href="https://pegi.info/"
+                  ><img src="../Bilder Videor/12.png" alt=""
+                /></a>
+              </li>
+              <li class="list3">
+                <img src="../Bilder Videor/bad-language-black-EN.png" alt="" />
+              </li>
+              <li class="list3">
+                <img src="../Bilder Videor/violence-black-EN.png" alt="" />
+              </li>
+              <li class="list3">
+                <img
+                  src="../Bilder Videor/in-game-purchase-black-EN.png"
+                  alt=""
+                />
+              </li>
+            </ul>
+          </div>
+        </ul>
+      </div>
     </div>
   </body>
 </html>
