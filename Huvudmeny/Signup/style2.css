@@ -65,7 +65,7 @@ ul {
   margin-top: 20%;
 }
 
-.sjätte-sid {
+.sista-sid {
   height: 300px;
   background-color: rgb(19, 19, 19);
   display: flex;
@@ -74,7 +74,7 @@ ul {
   padding-bottom: 35px;
 }
 
-.sjätte-innre {
+.sista-innre {
   display: flex;
 }
 
@@ -156,7 +156,7 @@ ul {
       display: flex;
       justify-content: center;
   }
-  .sjätte-sid {
+  .sista-sid {
       height: 630px;
   }
   .input {
