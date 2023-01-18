@@ -15,6 +15,10 @@ li {
   font-family: "Exo 2", sans-serif;
 }
 
+form ul {
+  margin-left: 10%;
+}
+
 input {
   font-size: 100%;
   color: black;
@@ -137,3 +141,16 @@ ul {
 
 
 /* ----------------MEDIA---------------- */
+
+@media screen and (max-width: 415px){
+  nav {
+  display: none;
+  }
+  .end-list {
+      display: flex;
+      justify-content: center;
+  }
+  .sjätte-sid {
+      height: 630px;
+  }
+}

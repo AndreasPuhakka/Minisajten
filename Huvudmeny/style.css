@@ -212,7 +212,6 @@ header {
   height: 300px;
   background-color: rgb(19, 19, 19);
   display: flex;
-  align-items: top;
   justify-content: center;
   padding-bottom: 10px;
 }
@@ -309,7 +308,7 @@ li a:hover {
 
 /* ------------------MEDIA-------------------- */
 
-@media only screen and (max-width: 1303px) {
+@media screen and (max-width: 1303px) {
   .overlay {
     position: absolute;
     top: 30%;
@@ -318,7 +317,7 @@ li a:hover {
   }
 }
 
-@media only screen and (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
   .box {
     height: 343px;
     width: 300px;
@@ -326,7 +325,7 @@ li a:hover {
   }
 }
 
-@media only screen and (max-width: 1150px) {
+@media screen and (max-width: 1150px) {
   .csgo-intro {
     opacity: 0;
   }
@@ -395,13 +394,13 @@ li a:hover {
   }
 }
 
-@media only screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .andra-sid {
     margin-top: -300px;
   }
 }
 
-@media only screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
   .fjärde-innre {
     display: flex;
     flex-direction: column;
@@ -413,13 +412,13 @@ li a:hover {
   }
 }
 
-@media only screen and (max-width: 935px) {
+@media screen and (max-width: 935px) {
   .overlay {
     width: 92%;
   }
 }
 
-@media only screen and (max-width: 700px) {
+@media screen and (max-width: 700px) {
   .andra-sid {
     margin-top: -200px;
   }
@@ -428,13 +427,20 @@ li a:hover {
   }
 }
 
-@media only screen and (max-width: 402px) {
-  .sjätte-sid {
-    height: 500px;
-  }
+@media screen and (max-width: 415px){
+    nav {
+    display: none;
+    }
+    .end-list {
+        display: flex;
+        justify-content: center;
+    }
+    .sjätte-sid {
+        height: 580px;
+    }
 }
 
-@media only screen and (max-width: 320px) {
+@media screen and (max-width: 320px) {
   .andra-sid {
     margin-top: -150px;
   }
