@@ -277,12 +277,12 @@ ul {
   margin-right: -7px;
 }
 
-.login-div {
+.signup-div {
   display: flex;
   margin-right: 15px;
 }
 
-.login {
+.signup {
   color: black;
   /* Gör något här */
 }

@@ -1,6 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@400;600;700;800&display=swap");
+
 body {
   background-color: rgb(49, 49, 49);
   margin: 0px;
+  font-family: "Exo 2", sans-serif;
 }
 
 li {
@@ -8,11 +11,16 @@ li {
   margin: 20px 0px;
 }
 
+::placeholder {
+  font-family: "Exo 2", sans-serif;
+}
+
 input {
   font-size: 100%;
   color: black;
   background-color: white;
   transition: 1s;
+  font-family: "Exo 2", sans-serif;
 }
 
 .form {
@@ -21,7 +29,11 @@ input {
 
 li {
   display: inline;
+  color: white;
 }
+
+
+
 li a {
   color: white;
   margin: 8px 6px;
@@ -46,6 +58,7 @@ a {
 
 ul {
   padding: 0px;
+  margin-top: 20%;
 }
 
 .sjätte-sid {
@@ -116,3 +129,11 @@ ul {
 .list4 {
   margin-right: -7px;
 }
+
+.sida {
+  margin: 0px;
+  padding: 2px;
+}
+
+
+/* ----------------MEDIA---------------- */

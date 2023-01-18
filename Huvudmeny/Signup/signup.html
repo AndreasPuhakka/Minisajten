@@ -12,18 +12,13 @@
     ></script>
   </head>
   <body>
-    <div class="input">
+    <form class="input">
       <ul>
-        <li>Email or Phone</li>
         <li class="form">
-          <input
-            type="text"
-            name="Email or Phone"
-            id="email or phone"
-            placeholder="Email or Phone"
-          />
+          <input type="email" name="Email" id="email" placeholder="Email" />
+          <label for="email">Enter email</label>
         </li>
-        <li><p>Password</p></li>
+
         <li class="form">
           <input
             type="password"
@@ -32,8 +27,23 @@
             maxlength="128"
             spellcheck="false"
             minlength="8"
-            required="required"
+            required="Re-enter"
+            id="password"
           />
+          <label for="password">Enter password</label>
+        </li>
+        <li>
+          <input
+            type="password"
+            class="password"
+            placeholder="Password"
+            maxlength="128"
+            spellcheck="false"
+            minlength="8"
+            required="Re-enter"
+            id="re_enter_password"
+          />
+          <label for="re_enter_password">Re-enter password</label>
         </li>
         <li class="form">
           <a href="../sida.html" class="sida">
@@ -41,7 +51,7 @@
           </a>
         </li>
       </ul>
-    </div>
+    </form>
     <div class="sjätte-sid" id="6-sid">
       <div class="sjätte-innre">
         <ul class="list">
