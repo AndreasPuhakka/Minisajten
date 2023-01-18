@@ -54,6 +54,7 @@ li a {
   height: 43px;
   width: 43px;
   margin-left: 5px;
+  padding-top: 4px;
 }
 
 .csgo-intro {
@@ -107,7 +108,7 @@ li a {
 }
 
 .overviewL {
-  width: 100%;
+  width: 3500px;
   display: flex;
   margin: 0px;
   justify-content: center;
@@ -120,12 +121,15 @@ li a {
 .andra-innre {
   padding-top: 125px;
   display: flex;
+  align-items: center;
 }
 
 .tredje-innre {
-  padding-top: 125px;
+  margin-top: 125px;
   display: flex;
   flex-direction: row-reverse;
+  height: 400px;
+  align-items: center;
 }
 
 .andra-sid,
@@ -146,7 +150,7 @@ li a {
 }
 
 .overviewR {
-  width: 100%;
+    width: 5250px;
   display: flex;
   margin: 0px;
   justify-content: center;
@@ -392,6 +396,12 @@ li a:hover {
   .box {
     margin: 0px 15px;
   }
+  .fjärde-sid{
+    margin-top: 400px;
+  }
+.overviewL, .overviewR {
+    width: 100%;
+}
 }
 
 @media screen and (max-width: 1024px) {

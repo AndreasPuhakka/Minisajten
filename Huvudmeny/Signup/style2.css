@@ -16,7 +16,7 @@ li {
 }
 
 form ul {
-  margin-left: 10%;
+  margin-left: 50px;
 }
 
 input {
@@ -139,6 +139,12 @@ ul {
   padding: 2px;
 }
 
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 /* ----------------MEDIA---------------- */
 
@@ -152,5 +158,8 @@ ul {
   }
   .sjätte-sid {
       height: 630px;
+  }
+  .input {
+    height: 60vh;
   }
 }
